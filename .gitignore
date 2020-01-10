@@ -1,3 +1,6 @@
 source-binaries
-source/**/*.png
 bin
+
+#Ignore source by default; un-ignore when I figure out how to manage diffs against this huge repo
+source
+
