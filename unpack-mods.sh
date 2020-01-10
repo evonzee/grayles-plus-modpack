@@ -10,7 +10,7 @@ fi
 mkdir $SOURCEDIR
 cd $SOURCEDIR
 
-find ../source-binaries -type f | while read f
+find ../source-binaries -type f -name "*.pak" | while read f
 do
 	echo Processing $f
 	name=$(basename "$f")
