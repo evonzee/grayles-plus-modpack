@@ -1,0 +1,4 @@
+[submodule "source/FrackinUniverse.pak"]
+	path = source/FrackinUniverse.pak
+	url = ssh://git@github.com/evonzee/FrackinUniverse.git
+	branch = grayles
